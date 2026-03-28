@@ -1,0 +1,11 @@
+train: A:\PROJECT\Line marking\yolo_dataset\images\train
+val: A:\PROJECT\Line marking\yolo_dataset\images\val
+
+nc: 20
+names:
+  [
+    "car", "real ll", "virtual ll", "no passing", "bus", "truck",
+    "zebra crossing", "straight line", "right turn", "stop line",
+    "cross hatch", "sr turn", "turn around", "left turn",
+    "diversion line", "sl turn", "guide ll", "rop", "lor", "slow down"
+  ]
